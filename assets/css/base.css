@@ -21,6 +21,10 @@ html {
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
   }
+  a{
+    text-align: center;
+    text-decoration: none;
+  }
 /* body {
     color: #666666;
     font-size: 14px;
@@ -194,6 +198,7 @@ a{
   
   img {
     border-style: none;
+    outline: none ;
   }
   
   /* Forms
@@ -211,7 +216,7 @@ a{
   textarea {
     font-family: inherit; /* 1 */
     font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
+    line-height: inherit; /* 1 */
     margin: 0; /* 2 */
   }
   
@@ -269,6 +274,9 @@ a{
     outline: 1px dotted ButtonText;
   }
   
+  li{
+    list-style-type: none ;
+  }
   /**
    * Correct the padding in Firefox.
    */
@@ -397,14 +405,10 @@ a{
 .row{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    /* gap: 15px; */
-    margin: 0 -15px !important;
-    padding: 0 -15px !important;
-}
-.col{
-  flex-grow: 1;
-  flex-basic:0;
+    margin:0 -15px;
+    /* flex-wrap: wrap; */
+    /* margin: 0 -15px !important;
+    padding: 0 -15px !important; */
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -418,3 +422,17 @@ a{
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12{
+  padding: 0 15px;
+}
