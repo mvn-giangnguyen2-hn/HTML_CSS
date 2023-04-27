@@ -84,8 +84,8 @@ a{
   }
   
   /**
-   * Correct the font size and margin on `h1` elements within `section` and
-   * `article` contexts in Chrome, Firefox, and Safari.
+   * Correct the font size  and  margin on `h1` elements within `section`  and 
+   * `article` contexts in Chrome, Firefox,  and  Safari.
    */
   
   h1 {
@@ -98,7 +98,7 @@ a{
   
   /**
    * 1. Add the correct box sizing in Firefox.
-   * 2. Show the overflow in Edge and IE.
+   * 2. Show the overflow in Edge  and  IE.
    */
   
   hr {
@@ -108,7 +108,7 @@ a{
   }
   
   /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 1. Correct the inheritance  and  scaling of font size in all browsers.
    * 2. Correct the odd `em` font sizing in all browsers.
    */
   
@@ -130,7 +130,7 @@ a{
   
   /**
    * 1. Remove the bottom border in Chrome 57-
-   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera,  and  Safari.
    */
   
   abbr[title] {
@@ -140,7 +140,7 @@ a{
   }
   
   /**
-   * Add the correct font weight in Chrome, Edge, and Safari.
+   * Add the correct font weight in Chrome, Edge,  and  Safari.
    */
   
   b,
@@ -149,7 +149,7 @@ a{
   }
   
   /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 1. Correct the inheritance  and  scaling of font size in all browsers.
    * 2. Correct the odd `em` font sizing in all browsers.
    */
   
@@ -169,7 +169,7 @@ a{
   }
   
   /**
-   * Prevent `sub` and `sup` elements from affecting the line height in
+   * Prevent `sub`  and  `sup` elements from affecting the line height in
    * all browsers.
    */
   
@@ -206,7 +206,7 @@ a{
   
   /**
    * 1. Change the font styles in all browsers.
-   * 2. Remove the margin in Firefox and Safari.
+   * 2. Remove the margin in Firefox  and  Safari.
    */
   
   button,
@@ -231,7 +231,7 @@ a{
   }
   
   /**
-   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * Remove the inheritance of text transform in Edge, Firefox,  and  IE.
    * 1. Remove the inheritance of text transform in Firefox.
    */
   
@@ -241,7 +241,7 @@ a{
   }
   
   /**
-   * Correct the inability to style clickable types in iOS and Safari.
+   * Correct the inability to style clickable types in iOS  and  Safari.
    */
   
   button,
@@ -252,7 +252,7 @@ a{
   }
   
   /**
-   * Remove the inner border and padding in Firefox.
+   * Remove the inner border  and  padding in Firefox.
    */
   
   button::-moz-focus-inner,
@@ -286,7 +286,7 @@ a{
   }
   
   /**
-   * 1. Correct the text wrapping in Edge and IE.
+   * 1. Correct the text wrapping in Edge  and  IE.
    * 2. Correct the color inheritance from `fieldset` elements in IE.
    * 3. Remove the padding so developers are not caught out when they zero out
    *    `fieldset` elements in all browsers.
@@ -302,7 +302,7 @@ a{
   }
   
   /**
-   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   * Add the correct vertical alignment in Chrome, Firefox,  and  Opera.
    */
   
   progress {
@@ -329,7 +329,7 @@ a{
   }
   
   /**
-   * Correct the cursor style of increment and decrement buttons in Chrome.
+   * Correct the cursor style of increment  and  decrement buttons in Chrome.
    */
   
   [type="number"]::-webkit-inner-spin-button,
@@ -338,7 +338,7 @@ a{
   }
   
   /**
-   * 1. Correct the odd appearance in Chrome and Safari.
+   * 1. Correct the odd appearance in Chrome  and  Safari.
    * 2. Correct the outline style in Safari.
    */
   
@@ -348,7 +348,7 @@ a{
   }
   
   /**
-   * Remove the inner padding in Chrome and Safari on macOS.
+   * Remove the inner padding in Chrome  and  Safari on macOS.
    */
   
   [type="search"]::-webkit-search-decoration {
@@ -356,7 +356,7 @@ a{
   }
   
   /**
-   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 1. Correct the inability to style clickable types in iOS  and  Safari.
    * 2. Change font properties to `inherit` in Safari.
    */
   
@@ -369,7 +369,7 @@ a{
      ========================================================================== */
   
   /*
-   * Add the correct display in Edge, IE 10+, and Firefox.
+   * Add the correct display in Edge, IE 10+,  and  Firefox.
    */
   
   details {
@@ -406,33 +406,263 @@ a{
     display: flex;
     flex-direction: row;
     margin:0 -15px;
-    /* flex-wrap: wrap; */
-    /* margin: 0 -15px !important;
-    padding: 0 -15px !important; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12{
-  padding: 0 15px;
+.col-1 {
+  padding:0 15px;
+  width: calc(100%/12);}
+.col-2 {
+  padding:0 15px;
+  width: calc(100%/6);}
+.col-3 {
+  padding:0 15px;
+  width: calc(100%/4);}
+.col-4 {
+  padding:0 15px;
+  width: calc(100%/3);}
+.col-5 {
+  padding:0 15px;
+  width: calc(100%*5/12);}
+.col-6 {
+  padding:0 15px;
+  width: calc(100%/2);}
+.col-7 {
+  padding:0 15px;
+  width: calc(100%*7/12);}
+.col-8 {
+  padding:0 15px;
+  width: calc(100%*8/12);}
+.col-9 {
+  padding:0 15px;
+  width: calc(100%*9/12);}
+.col-10 {
+  padding:0 15px;
+  width: calc(100%*10/12);}
+.col-11 {
+  padding:0 15px;
+  width: calc(100%*11/12);}
+.col-12 {
+  padding:0 15px;
+  width: 100%;}
+@media(max-width:576px){
+  .col-xs-1 {
+    padding:0 15px;
+    width: calc(100%/12);}
+  .col-xs-2 {
+    padding:0 15px;
+    width: calc(100%/6);}
+  .col-xs-3 {
+    padding:0 15px;
+    width: calc(100%/4);}
+  .col-xs-4 {
+    padding:0 15px;
+    width: calc(100%/3);}
+  .col-xs-5 {
+    padding:0 15px;
+    width: calc(100%*5/12);}
+  .col-xs-6 {
+    padding:0 15px;
+    width: calc(100%/2);}
+  .col-xs-7 {
+    padding:0 15px;
+    width: calc(100%*7/12);}
+  .col-xs-8 {
+    padding:0 15px;
+    width: calc(100%*8/12);}
+  .col-xs-9 {
+    padding:0 15px;
+    width: calc(100%*9/12);}
+  .col-xs-10 {
+    padding:0 15px;
+    width: calc(100%*10/12);}
+  .col-xs-11 {
+    padding:0 15px;
+    width: calc(100%*11/12);}
+  .col-xs-12 {
+    padding:0 15px;
+    width: 100%;}
+}
+@media(min-width:576px) and (max-width:768px){
+  .col-sm-1 {
+    padding:0 15px;
+    width: calc(100%/12);}
+  .col-sm-2 {
+    padding:0 15px;
+    width: calc(100%/6);}
+  .col-sm-3 {
+    padding:0 15px;
+    width: calc(100%/4);}
+  .col-sm-4 {
+    padding:0 15px;
+    width: calc(100%/3);}
+  .col-sm-5 {
+    padding:0 15px;
+    width: calc(100%*5/12);}
+  .col-sm-6 {
+    padding:0 15px;
+    width: calc(100%/2);}
+  .col-sm-7 {
+    padding:0 15px;
+    width: calc(100%*7/12);}
+  .col-sm-8 {
+    padding:0 15px;
+    width: calc(100%*8/12);}
+  .col-sm-9 {
+    padding:0 15px;
+    width: calc(100%*9/12);}
+  .col-sm-10 {
+    padding:0 15px;
+    width: calc(100%*10/12);}
+  .col-sm-11 {
+    padding:0 15px;
+    width: calc(100%*11/12);}
+  .col-sm-12 {
+    padding:0 15px;
+    width: 100%;}
+}
+@media(min-width:768px) and (max-width:992px){
+  .col-md-1 {
+    padding:0 15px;
+    width: calc(100%/12);}
+  .col-md-2 {
+    padding:0 15px;
+    width: calc(100%/6);}
+  .col-md-3 {
+    padding:0 15px;
+    width: calc(100%/4);}
+  .col-md-4 {
+    padding:0 15px;
+    width: calc(100%/3);}
+  .col-md-5 {
+    padding:0 15px;
+    width: calc(100%*5/12);}
+  .col-md-6 {
+    padding:0 15px;
+    width: calc(100%/2);}
+  .col-md-7 {
+    padding:0 15px;
+    width: calc(100%*7/12);}
+  .col-md-8 {
+    padding:0 15px;
+    width: calc(100%*8/12);}
+  .col-md-9 {
+    padding:0 15px;
+    width: calc(100%*9/12);}
+  .col-md-10 {
+    padding:0 15px;
+    width: calc(100%*10/12);}
+  .col-md-11 {
+    padding:0 15px;
+    width: calc(100%*11/12);}
+  .col-md-12 {
+    padding:0 15px;
+    width: 100%;}
+}
+@media(min-width:992px) and (max-width:1200px){
+  .col-lg-1 {
+    padding:0 15px;
+    width: calc(100%/12);}
+  .col-lg-2 {
+    padding:0 15px;
+    width: calc(100%/6);}
+  .col-lg-3 {
+    padding:0 15px;
+    width: calc(100%/4);}
+  .col-lg-4 {
+    padding:0 15px;
+    width: calc(100%/3);}
+  .col-lg-5 {
+    padding:0 15px;
+    width: calc(100%*5/12);}
+  .col-lg-6 {
+    padding:0 15px;
+    width: calc(100%/2);}
+  .col-lg-7 {
+    padding:0 15px;
+    width: calc(100%*7/12);}
+  .col-lg-8 {
+    padding:0 15px;
+    width: calc(100%*8/12);}
+  .col-lg-9 {
+    padding:0 15px;
+    width: calc(100%*9/12);}
+  .col-lg-10 {
+    padding:0 15px;
+    width: calc(100%*10/12);}
+  .col-lg-11 {
+    padding:0 15px;
+    width: calc(100%*11/12);}
+  .col-lg-12 {
+    padding:0 15px;
+    width: 100%;}
+.col-lg-10-1 {
+  padding:0 15px;
+  width: 10%;}
+.col-lg-10-2 {
+  padding:0 15px;
+  width: 20%;}
+.col-lg-10-3 {
+  padding:0 15px;
+  width: 30%;}
+.col-lg-10-4 {
+  padding:0 15px;
+  width: 40%;}
+.col-lg-10-5 {
+  padding:0 15px;
+  width: 50%;}
+.col-lg-10-6 {
+  padding:0 15px;
+  width: 60%;}
+.col-lg-10-7 {
+  padding:0 15px;
+  width: 70%;}
+.col-lg-10-8 {
+  padding:0 15px;
+  width: 80%;}
+.col-lg-10-9 {
+  padding:0 15px;
+  width: 90%;}
+.col-lg-10-10 {
+  padding:0 15px;
+  width: 100%;}
+}
+@media(min-width:1200px){
+  .col-xl-1 {
+    padding:0 15px;
+    width: calc(100%/12);}
+  .col-xl-2 {
+    padding:0 15px;
+    width: calc(100%/6);}
+  .col-xl-3 {
+    padding:0 15px;
+    width: calc(100%/4);}
+  .col-xl-4 {
+    padding:0 15px;
+    width: calc(100%/3);}
+  .col-xl-5 {
+    padding:0 15px;
+    width: calc(100%*5/12);}
+  .col-xl-6 {
+    padding:0 15px;
+    width: calc(100%/2);}
+  .col-xl-7 {
+    padding:0 15px;
+    width: calc(100%*7/12);}
+  .col-xl-8 {
+    padding:0 15px;
+    width: calc(100%*8/12);}
+  .col-xl-9 {
+    padding:0 15px;
+    width: calc(100%*9/12);}
+  .col-xl-10 {
+    padding:0 15px;
+    width: calc(100%*10/12);}
+  .col-xl-11 {
+    padding:0 15px;
+    width: calc(100%*11/12);}
+  .col-xl-12 {
+    padding:0 15px;
+    width: 100%;}
 }
