@@ -1,150 +1,11 @@
-/* @media(max-width:576px){
-    .container{
-        max-width: none;
-    }
-}
-@media(min-width:576px) and (max-width:768px){
-    .container{
-        max-width: 540px;
-    }
-}
-@media(min-width:768px) and (max-width:992px){
-    .container{
-        max-width: 720px;
-    }
-}
-@media(min-width:992px) and (max-width:1200px){
-    .container{
-        max-width: 960px;
-    }
-    #header .nav_phone,
-    #header .nav_login{
-        display: none !important;
-    }
-}
-@media(min-width:1200px){
-    .container{
-        max-width: 1140px;
-    }
-} */
-/* @media(max-width:1200px){
-    .container{
-        max-width: 960px;
-    }
-}
-@media(max-width:992px){
-    .container{
-        max-width: 720px;
-    }
-    #header .nav_phone,
-    #header .nav_login{
-        display: none !important;
-    }
-}
-@media(max-width:768px){
-    .container{
-        max-width: 540px;
-    }
-}
 @media(max-width:576px){
     .container{
         max-width: none;
     }
-} */
-#header .nav_phone,
-#header .nav_login{
-display: none !important;
-}
-#header .nav .nav_logo{
-    display: flex;
-    width: 65%;
-}
-#header .nav #navMenu{
-    display: block;
-    width: 35%;
-    font-size: 40px;
-    color: #fff;
-    text-align: right;
-}
-
-#header #sideNav{
-    display: none;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(7, 7, 7, 0.9);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2000;
-    text-align: center;
-    padding: 60px;
-}
-#header #sideNav a{
-    display: block;
-    font-size: 20px;
-    padding: 8px ;
-    color: var(--white-color);
-}
-#header #sideNav a:hover{
-    color: #1b8943;;
-}
-#header #sideNav #closeBtn{
-    display: block;
-    font-size: 20px;
-    padding: 16px ;
-    color: var(--white-color);
-    position: absolute;
-    top: 22px;
-    right: 32px;
-}
-#banner .main-menu{
-    display: none;
-}
-.slider .slider_banner div {
-    font-size: 40px;
-    text-align: center;
-    margin: 0 auto;
-    font-weight: 600;
-}
-.slider .slider_banner .text_action{
-    width: 100%;
-    padding: 50px 0 10px;
-    color: var(--white-color);
-    line-height: 60px;
-}
-.slider .slider_banner .text_city{
-    width: 260px;
-    font-weight: 800;
-    background-color: var(--white-color);
-    color: var(--primary-color);
-    border-radius: 7px;
-    line-height: normal;
-
-}
-.slider_form .slider_form-item{
-    padding: 20px;
-    font-size: 20px;
-    border-radius: 4px;
-    line-height: 1.8;
- }
- .slider_form select{
-     display: none;
- }
- .slider_form input{
-     width: 100%;
- }
-
-
-@media(max-width:576px){
-    .container{
-        max-width: none;
-    }
-
 }
 @media(min-width:576px){
     .container{
         max-width: 540px;
-
     }
 
 }
@@ -194,11 +55,9 @@ display: none !important;
     flex-direction: row;
 }
     #blog .blog-img img{
-        /* margin:0 0 10px; */
         height: 279px;
         width: 100%;
         object-fit: cover;
-
     }
     #blog .blog-item .blog-note{
         display: flex;
@@ -244,7 +103,6 @@ display: none !important;
     #contact .contact-order{
         flex-direction: row;
         padding: 30px;
-
     }
 }
 @media(min-width:992px){
@@ -311,7 +169,6 @@ display: none !important;
     #footer .container .useful-title{
         font-size: 24px;
     }
-
 }
 @media(min-width:1200px){
     .container{
@@ -329,5 +186,4 @@ display: none !important;
     #footer .container .useful-title{
         font-size: 30px;
     }
-
 }
