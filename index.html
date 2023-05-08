@@ -4,9 +4,443 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />  
+
+    <title>Find Restaurants</title>
 </head>
 <body>
+    <div id="container-fluid">
+        <div id="header">
+            <div class="nav container">
+                <div class="nav-item nav_phone">
+                    <a>
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Call : +01 0123456789</span>
+                    </a>
+
+                </div>
+                <div class="nav_logo">
+                    <a href="index.html">
+                        <img src="./assets/imgs/logo.png"/>
+                    </a>
+                </div>
+                <div class="nav-item nav_login">
+                    <a>
+                       
+                        <span>Email: example@gmail.com</span>
+                    </a>
+                </div>
+                <div id="navMenu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div id="sideNav">
+                <ul>
+                    <li>
+                        <i id="closeBtn" class=" fas fa-times"></i>
+                    </li>
+                   <li>
+                      <a href="#">HOME</a>
+                    </li> 
+                    <li> 
+                        <a href="#service">SERVICES</a>
+                    </li> 
+                    <li>
+                        <a href="#footer">ABOUT</a> 
+                    </li> 
+                    <li>
+                        <a href="#blog">BLOG</a> 
+                    </li> 
+                    <li>
+                        <a href="#shop">SHOP</a> 
+                    </li> 
+                    <li>
+                        <a href="#contact">CONTACTS</a> 
+                    </li> 
+                </ul>
+            </div>
+        </div>
+        <div id="layout_main">
+                <div id="banner">
+                    <div class="container">
+                        <div class="main-menu">
+                            <div class="custom-menu">
+                                <ul>
+                                    <li><a href="#">HOME</a></li>
+                                    <li><a href="#service">SERVICES</a></li>
+                                    <li><a href="#footer">ABOUT</a></li>
+                                    <li><a href="#blog">BLOG</a></li>
+                                    <li><a href="#shop">SHOP</a></li>
+                                    <li><a href="#contact">CONTACTS</a></li>
+                                </ul>
+                            </div>
+                            <div class="login-menu">
+                                <ul>
+                                    <li><a href="#">LOGIN</a></li>
+                                    <li><i class="fas fa-search"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider">
+                        <div class=container>
+                            <div class="slider_banner">
+                                <div class="text_action">
+                                    Find The Best Restaurants Cafes And Bars in
+                                </div>
+                                <div class="text_city">
+                                    YOUR CITY
+                                </div>
+                            </div>
+                            <div class="slider_form">
+                                <div>
+                                    <select class="slider_form-item">
+                                        <option value="beer">All Category</option>
+                                        <option value="cafe">Action</option>
+                                        <option value="bar">Another action</option>
+                                        <option value="pug">Something else here</option>
+                                    </select>
+                                    <input class="slider_form-item" type="text" placeholder="Search this blog">
+                                    <div class="btn-search">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                </div>
+                                <div class="btn-order">
+                                    <a href="index.html">Order now</a>
+                                </div>
+                                
+                            </div>
+
+                            
+                        </div>
+                    </div>
     
+                </div>
+                <div id="service">
+                    <div class="container">
+                        <div class="service-title">
+                            Quick Searches
+                        </div>
+                        <div class=" service-list">
+                            <div class="row">
+                                <div class="service-list-item col-xs-6 col-sm-4 col-md-3 col-lg-10-2 col-xl-2 ">
+                                    <div>
+                                        <img src="./assets/imgs/breakfast-img.png"/>
+                                    </div>
+                                    <p>Breakfast</p>
+                                    <a href="#">SEE MORE</a>
+                                </div>
+                                <div class="service-list-item col-xs-6 col-sm-4 col-md-3 col-lg-10-2 col-xl-2 ">
+                                    <div>
+                                        <img src="./assets/imgs/delivery-img.png"/>
+                                    </div>
+                                    <p>Delivery</p>
+                                    <a href="#">SEE MORE</a>
+                                </div>
+                                <div class="service-list-item col-xs-6 col-sm-4 col-md-3 col-lg-10-2 col-xl-2 ">
+                                    <div>
+                                        <img src="./assets/imgs/dinner-img.png"/>
+                                    </div>
+                                    <p>Dinner</p>
+                                    <a href="#">SEE MORE</a>
+                                </div>
+                                <div class="service-list-item col-xs-6 col-sm-4 col-md-3 col-lg-10-2 col-xl-2 ">
+                                    <div>
+                                        <img src="./assets/imgs/coffee-img.png"/>
+                                    </div>
+                                    <p>Coffee</p>
+                                    <a href="#">SEE MORE</a>
+                                </div>
+                                <div class="service-list-item col-xs-6 col-sm-4 col-md-6 col-lg-10-2 col-xl-2 ">
+                                    <div>
+                                        <img src="./assets/imgs/alcohol-img.png"/>
+                                    </div>
+                                    <p>Alcohol</p>
+                                    <a href="#">SEE MORE</a>
+                                </div>
+                                <div class="service-list-item col-xs-6 col-sm-4 col-md-6 col-lg-10-10 col-xl-2 ">
+                                    <div>
+                                        <img src="./assets/imgs/diningtable-img.png"/>
+                                    </div>
+                                    <p>Diningtable</p>
+                                    <a href="#">SEE MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="blog">
+                    <div class=" container ">
+                        <div class=" blog-title">
+                            Collections Food In city
+                        </div>
+                        <div class=" blog-list">
+                            <div class="row blog-item ">
+                                <div class="blog-img col-xs-12 col-sm-12 col-6 ">
+                                    <img src="./assets/imgs/blog-img1.png"/>
+                                </div>
+                                <div class="blog-note col-xs-12 col-sm-12 col-6">
+                                    <div class="blog-note_title">
+                                        This Week going
+                                    </div>
+                                    <div class="blog-note_desc">
+                                        Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+                                    </div>
+                                    <div class="blog-note_detail">
+                                        <a href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row blog-item ">
+                                <div class="blog-img col-xs-12 col-sm-12 col-6 ">
+                                    <img src="./assets/imgs/blog-img2.png"/>
+                                </div>
+                                <div class="blog-note col-xs-12 col-sm-12 col-6">
+                                    <div class="blog-note_title">
+                                        Just Delivery Food
+                                    </div>
+                                    <div class="blog-note_desc">
+                                        Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+                                    </div>
+                                    <div class="blog-note_detail">
+                                        <a href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row blog-item ">
+                                <div class="blog-img col-xs-12 col-sm-12 col-6 ">
+                                    <img src="./assets/imgs/blog-img3.png"/>
+                                </div>
+                                <div class="blog-note col-xs-12 col-sm-12 col-6">
+                                    <div class="blog-note_title">
+                                        Newly Opened Cafe
+                                    </div>
+                                    <div class="blog-note_desc">
+                                        Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+                                    </div>
+                                    <div class="blog-note_detail">
+                                        <a href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="shop">
+                    <div class="container">
+                        <div class="row">
+                            <div class="shop-info col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <div class="shop-info_title">
+                                    Get the
+                                    <br>
+                                    <span>Food Finda App</span>
+                                </div>
+                                <div class="shop-info_desc">
+                                    Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                                </div>
+                                <div class="shop-info_icon">
+                                    <div class="app_icon">
+                                        <img src="./assets/imgs/icon-1.png">
+                                    </div>
+                                    <div class="app_icon">
+                                        <img src="./assets/imgs/icon-2.png">
+                                    </div>
+                                </div>
+                                <div class="shop-info_download">
+                                    <a href="#">Download Now</a>
+                                </div>
+                            </div>
+                            <div class="shop-img col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <img src="./assets/imgs/mobile-img.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="testimonial">
+                    <div class="container">
+                        <div class="testimonial-title">
+                            Customers Says
+                        </div>
+                        <div class="row testimonial-customer">
+                            <div class="col-xs-12 col-sm-12 col-4 customer ">
+                                <div class="customer-name">
+                                    Loliy Mark
+                                </div>
+                                <p class="customer-cmt">
+                                    Now use Lorem Ipsum as their default model text, and a search for 'loremnow use Lorem Ipsum as their default model text, and a search for 'lorem
+                                </p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-4 customer ">
+                                <div class="customer-name">
+                                    Loliy Mark
+                                </div>
+                                <p class="customer-cmt">
+                                    Now use Lorem Ipsum as their default model text, and a search for 'loremnow use Lorem Ipsum as their default model text, and a search for 'lorem
+                                </p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-4 customer ">
+                                <div class="customer-name">
+                                    Loliy Mark
+                                </div>
+                                <p class="customer-cmt">
+                                    Now use Lorem Ipsum as their default model text, and a search for 'loremnow use Lorem Ipsum as their default model text, and a search for 'lorem
+                                </p>
+                            </div>
+                        </div>
+                        <div class="testimonial-icon">                     
+                            <a class="icon icon-prev active" href="#">
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                            <a class="icon icon-next" href="#">
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact">
+                    <div class="container">
+                        <div class="contact-title">
+                            Get In Touch
+                        </div>
+                        <div class="contact-form">
+                            <input class="form-name" type="text" placeholder="Name"/>
+                            <input class="form-phone" type="text" placeholder="Phone"/>
+                            <input class="form-email" type="email" placeholder="Email"/>
+                            <textarea class="form-mes" rows="4" cols="100" placeholder="Message"></textarea>
+                        </div>
+                        <div class="contact-send">
+                            <a href="#">SEND</a>
+                        </div>
+                        <div class="contact-order">
+                            <div class="order-title">
+                                ORDER BEST FOOD AT TIME
+                            </div>
+                           <div class="order-link"> 
+                            <a href="#">ORDER NOW   </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div class="row container ">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-3 footer-quote">
+                            <div class="footer-logo">
+                            FOODFINDA
+                            </div>
+                            <div class="footer-text">
+                                t is a long established fact that a reader will be distracted by the 
+                                readable content of a page when looking at its layout. The point of
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-3 useful">
+                            <div class="useful-title">
+                                NAVIGATION
+                            </div>
+                            <ul class="footer-menu">
+                                <li class="active">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Location</a>
+                                </li>
+                                <li>
+                                    <a href="#">Service</a>
+                                </li>
+                                <li>
+                                    <a href="#">Features</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-3 useful">
+                            <div class="useful-title">
+                                CONTACT INFO
+                            </div>
+                            <span>Office Address</span>
+                            <div>
+                                <a href="">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Loram ipusm New York, NY 36524</span>
+                                </a>
+                            </div>
+                            <span>Customer Service:</span>
+                            <div>         
+                                <a href="">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <span>( +01 1234567890 )</span>
+                                </a>
+                            </div>
+                            <div>
+
+                                <a href="">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>demo@gmail.com</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-3 useful">
+                            <div class="useful-title">
+                                DISCOVER
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="">Help</a>
+                                </li>
+                                <li>
+                                    <a href="">How It Works</a>
+                                </li>
+                                <li>
+                                    <a href="">Subcribe</a>
+                                </li>
+                                <li>
+                                    <a href="">Contact Us</a>
+                                </li>
+                            </ul>
+                            <ul class="social-icon">
+                                <li>
+                                    <a href="">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fab fa-instagram-square"></i>
+                                    </a>
+                                </li>
+                           
+                            </ul>
+                        </div>           
+    
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div id="copyright">
+        <div class="container">
+            <div class="copyright-text">
+                2020 All Rights Reserved. Design by 
+            </div>
+            <a href="https://html.design/">
+                Free html Templates
+            </a>
+        </div>
+    </div>
+<script src="./assets/js/main.js"></script>
 </body>
 </html>
